@@ -1,0 +1,93 @@
+/*resetCSS*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*clearfix追加*/
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+
+nav{
+	width: 960px;
+	margin-bottom: 50px;
+}
+
+.nav-list-text{
+	width: 960px;
+	padding: 20px 0 20px 20px;
+	list-style: none;
+}
+
+.nav-list-text:nth-child(odd){
+	background-color: gainsboro;
+}
+
+.boxes{
+	width: 960px;
+	height: 680px;
+	margin-bottom: 50px;
+}
+
+.box{
+	width: 30%;
+	height: 200px;
+	float: left;
+}
+
+.box:nth-child(3n-2){
+	margin: 0 5% 40px 0;
+}
+
+.box:nth-child(3n-1){
+	margin: 0 5% 40px 0;
+}
+
+.box:nth-child(3n){
+	margin-right: 0;
+}
+
+.box:nth-child(1){
+	background-color: #ff8c00;
+}
+
+.box:nth-child(2){
+	background-color: #ffd700;
+}
+
+.box:nth-child(3){
+	background-color: #ffd700;
+}
+
+.box:nth-child(4){
+	background-color: #ffd700;
+}
+
+.box:nth-child(5){
+	background-color: #ff8c00;
+}
+
+.box:nth-child(6){
+	background-color: #ffd700;
+}
+
+.box:nth-child(7){
+	background-color: #ffd700;
+}
+
+.box:nth-child(8){
+	background-color: #ffd700;
+}
+
+.box:nth-child(9){
+	background-color: #ff8c00;
+}
